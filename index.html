@@ -1,0 +1,37 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="index.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Keania+One&display=swap" rel="stylesheet">
+
+  </head>
+  <body>
+    <div class="container">
+      <div>
+        <h3>HOME</h3>
+        <div id="home" class="result">
+         0
+        </div>
+        <div class="btn-flex">
+        <button onclick="addOne()" class="home-team">+1</button>
+        <button onclick="addTwo()" class="home-team">+2</button>
+        <button onclick="addThree()" class="home-team">+3</button>
+      </div>
+      </div>
+      <div>
+        <h3>GUEST</h3>
+        <div id="guest" class="result">
+          0
+        </div>
+        <div class="btn-flex">
+        <button  onclick="addOneG()" class="guest-team">+1</button>
+        <button onclick="addTwoG()" class="guest-team">+2</button>
+        <button onclick="addThreeG()" class="guest-team">+3</button>
+      </div>
+      </div>
+      </div>
+    </div>
+    
+    <button onclick="resetGame()" class="reset">NEW GAME</button>
+    <script src="index.js"></script>
+  </body>
+</html>

@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+  background-color: #1c537a;
+  font-family: "Keania One";
+}
+
+h3 {
+  text-align: center;
+  color: white;
+  font-size: 35px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  font-family: "Keania One";
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.result {
+  width: 155px;
+  height: 120px;
+  font-size: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #d26e6e;
+}
+
+#home {
+  background-color: #000000;
+  border-radius: 5px;
+}
+
+#guest {
+  background-color: #000000;
+  border-radius: 5px;
+}
+
+button {
+  width: 40px;
+  height: 40px;
+  color: rgb(255, 255, 255);
+  margin-top: 15px;
+  border-radius: 5px;
+  border: 2px groove white;
+  font-family: "Keania One";
+  font-size: 15px;
+}
+
+.home-team {
+  background-color: #a55800;
+}
+
+.guest-team {
+  background-color: #a55800;
+}
+
+.btn-flex {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5px;
+}
+
+.reset {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 65px;
+  background-color: red;
+  width: 11%;
+  height: 35px;
+  text-align: center;
+  font-size: 28px;
+  border-radius: 5px;
+  color: white;
+  border: 2px groove white;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 35px;
+}
+
+button:hover {
+  background-color: #36a6d2;
+}
